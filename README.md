@@ -2,7 +2,7 @@
 
 cf4ai is a Bash utility that helps copy all files in a directory for use in tools like ChatGPT with just one simple line. It also appends the name of the file to its contents so that AI can better understand it.
 
-**Example 1**: If you have a project folder and want to ask ChatGPT about your code, you can use cf4ai to gather all `.md` documentation files. 
+**Example 1**: If that didn't work and now you want to ask ChatGPT for code, also giving it the context of all the java files in your project, you can use cf4ai to copy all the java files.
 
 ```bash
 ./cf4ai.sh /path/to/project --include .md
